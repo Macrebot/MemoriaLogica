@@ -50,16 +50,6 @@ public class MemoriaLogica{
 	}
 	System.out.println();
 
-	// Prueba para extraer el primer caracter de la instruccion
-	/*
-	for (Map.Entry<Integer, String> x : instrucciones.entrySet()) {
-	    System.out.println("Valor: " + x.getValue());
-	    orden = x.getValue().charAt(0);
-	    System.out.println("1er caracter: " + orden);
-
-	}
-	*/
-
 	// Proceso de orden
 	for (Map.Entry<String, String> x : instrucciones.entrySet()) {
 	    // obtención de las partes de la instruccion
