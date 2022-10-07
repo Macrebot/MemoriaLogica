@@ -3,5 +3,6 @@ public class MemoriaLogica {
 
         System.out.println("Hola Mundo");
         int numer = 5;
+	String nombre = "Macrebot";
     }
 }
