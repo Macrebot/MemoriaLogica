@@ -89,7 +89,7 @@ public class MemoriaLogica{
 	    System.out.println(x.getKey() + "\t" + x.getValue());
 	}
 	System.out.println("");
-
+	sc.close();
     }
 
 }
